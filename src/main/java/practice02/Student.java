@@ -8,7 +8,11 @@ public class Student extends Person{
         this.kclass = kclass;
     }
 
-    public int getKclass() {
+    public int getKlass() {
         return kclass;
+    }
+    @Override
+    public String introduce(){
+        return "I am a Student. I am at Class 2.";
     }
 }
