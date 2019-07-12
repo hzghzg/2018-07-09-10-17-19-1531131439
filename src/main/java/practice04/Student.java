@@ -13,6 +13,6 @@ public class Student extends Person{
     }
     @Override
     public String introduce(){
-        return super.basicIntroduce()+" I am a Student. I am at Class 2.";
+        return super.basicIntroduce()+" I am a Student. I am at Class "+kclass+".";
     }
 }
